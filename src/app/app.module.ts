@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ContenidoComponent } from './components/contenido/contenido.component';
 
 @NgModule({
@@ -12,7 +11,6 @@ import { ContenidoComponent } from './components/contenido/contenido.component';
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    FooterComponent,
     ContenidoComponent
   ],
   imports: [

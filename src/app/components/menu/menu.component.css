@@ -1,4 +1,32 @@
 .app-menu {
-  background-color: olive;
+  background-color: #2A9134;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigationButtons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+}
+.navigationButtons li{
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  background-color: #5BBA6F;
+  color: #054A29;
+  border: 3px white solid;
+  padding: 5px;
+  margin: 10px;
+}
+.navigationButtons li:hover {
+  list-style-type: none;
+  color: black;
+  border: 3px #054A29 solid;
+  cursor: pointer;
 }

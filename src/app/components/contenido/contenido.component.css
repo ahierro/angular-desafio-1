@@ -1,4 +1,9 @@
 .app-contenido {
-  background-color: aqua;
+  background-color: #054A29;
   height: 100%;
+  margin: 0;
+  width: 100%;
+}
+.destino{
+  margin: 30px;
 }

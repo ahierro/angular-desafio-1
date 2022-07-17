@@ -1,16 +1,16 @@
-.container {
+.contenedor {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "header header header header header"
     "menu contenido contenido contenido contenido"
     "menu contenido contenido contenido contenido"
-    "menu contenido contenido contenido contenido"
-    "footer footer footer footer footer";
-  height: 100vh;
+    "menu contenido contenido contenido contenido";
+  height: 100%;
+  min-height: 100vh;
 }
 
 .header {
@@ -23,8 +23,4 @@
 
 .contenido {
   grid-area: contenido;
-}
-
-.footer {
-  grid-area: footer;
 }

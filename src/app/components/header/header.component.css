@@ -1,4 +1,7 @@
 .app-header {
-  background-color: brown;
+  background-color: #137547;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
